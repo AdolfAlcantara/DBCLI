@@ -8,6 +8,9 @@ CMakeFiles/DCLI.dir/blocks/TableBlock.cpp.obj: ../master/BloqueMaestro.h
 CMakeFiles/DCLI.dir/blocks/TableBlock.cpp.obj: ../master/DataFile.h
 CMakeFiles/DCLI.dir/blocks/TableBlock.cpp.obj: ../tables/Table.h
 
+CMakeFiles/DCLI.dir/blocks/registryBlock.cpp.obj: ../blocks/registryBlock.cpp
+CMakeFiles/DCLI.dir/blocks/registryBlock.cpp.obj: ../blocks/registryBlock.h
+
 CMakeFiles/DCLI.dir/fields/Field.cpp.obj: ../fields/Field.cpp
 CMakeFiles/DCLI.dir/fields/Field.cpp.obj: ../fields/Field.h
 

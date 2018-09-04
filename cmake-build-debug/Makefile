@@ -149,6 +149,33 @@ blocks/TableBlock.cpp.s:
 	$(MAKE) -f CMakeFiles\DCLI.dir\build.make CMakeFiles/DCLI.dir/blocks/TableBlock.cpp.s
 .PHONY : blocks/TableBlock.cpp.s
 
+blocks/registryBlock.obj: blocks/registryBlock.cpp.obj
+
+.PHONY : blocks/registryBlock.obj
+
+# target to build an object file
+blocks/registryBlock.cpp.obj:
+	$(MAKE) -f CMakeFiles\DCLI.dir\build.make CMakeFiles/DCLI.dir/blocks/registryBlock.cpp.obj
+.PHONY : blocks/registryBlock.cpp.obj
+
+blocks/registryBlock.i: blocks/registryBlock.cpp.i
+
+.PHONY : blocks/registryBlock.i
+
+# target to preprocess a source file
+blocks/registryBlock.cpp.i:
+	$(MAKE) -f CMakeFiles\DCLI.dir\build.make CMakeFiles/DCLI.dir/blocks/registryBlock.cpp.i
+.PHONY : blocks/registryBlock.cpp.i
+
+blocks/registryBlock.s: blocks/registryBlock.cpp.s
+
+.PHONY : blocks/registryBlock.s
+
+# target to generate assembly for a file
+blocks/registryBlock.cpp.s:
+	$(MAKE) -f CMakeFiles\DCLI.dir\build.make CMakeFiles/DCLI.dir/blocks/registryBlock.cpp.s
+.PHONY : blocks/registryBlock.cpp.s
+
 fields/Field.obj: fields/Field.cpp.obj
 
 .PHONY : fields/Field.obj
@@ -323,6 +350,9 @@ help:
 	@echo ... blocks/TableBlock.obj
 	@echo ... blocks/TableBlock.i
 	@echo ... blocks/TableBlock.s
+	@echo ... blocks/registryBlock.obj
+	@echo ... blocks/registryBlock.i
+	@echo ... blocks/registryBlock.s
 	@echo ... fields/Field.obj
 	@echo ... fields/Field.i
 	@echo ... fields/Field.s

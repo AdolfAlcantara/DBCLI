@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/blocks/TableBlock.cpp" "C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/cmake-build-debug/CMakeFiles/DCLI.dir/blocks/TableBlock.cpp.obj"
+  "C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/blocks/registryBlock.cpp" "C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/cmake-build-debug/CMakeFiles/DCLI.dir/blocks/registryBlock.cpp.obj"
   "C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/fields/Field.cpp" "C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/cmake-build-debug/CMakeFiles/DCLI.dir/fields/Field.cpp.obj"
   "C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/main.cpp" "C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/cmake-build-debug/CMakeFiles/DCLI.dir/main.cpp.obj"
   "C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/master/BlockManager.cpp" "C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/cmake-build-debug/CMakeFiles/DCLI.dir/master/BlockManager.cpp.obj"

@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DCLI.dir/tables/Table.cpp.obj"
   "CMakeFiles/DCLI.dir/master/BlockManager.cpp.obj"
   "CMakeFiles/DCLI.dir/fields/Field.cpp.obj"
+  "CMakeFiles/DCLI.dir/blocks/registryBlock.cpp.obj"
   "DCLI.pdb"
   "DCLI.exe"
   "DCLI.exe.manifest"

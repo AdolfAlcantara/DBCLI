@@ -25,11 +25,11 @@ int main(){
             case 1:
             {
                 string tempPath = path;
-                int dbSize,blockSize;
+                int dbSize, blockSize;
                 cout<<"Nombre de la base de datos: "<<endl;
                 std::cin>>dbName;
                 tempPath+=dbName;
-                cout<<"Tamano de la base de datos en MB:"<<endl;
+                cout<<"Tamano de la base de datos en KB:"<<endl;
                 std::cin>>dbSize;
                 cout<<"Tamano del bloque en bytes:"<<endl;
                 cin>>blockSize;
@@ -39,7 +39,7 @@ int main(){
                 archivo = new DataFile(newPath);
                 archivo->createFile();
                 cout<<"Base de datos "<<dbName<<" creada exitosamente"<<endl;
-                auto *bm = new BloqueMaestro(dbSize*1024*1024,blockSize);
+                auto *bm = new BloqueMaestro(dbSize*1024,blockSize);
                 bm->Write(archivo);
                 TableBlock *tb = new TableBlock(bm->blockSize,bm->firstTableBlock);
                 tb->write(archivo);
@@ -217,7 +217,7 @@ int main(){
                 copy(tempPath.begin(),tempPath.end(),newPath);
                 newPath[tempPath.size()]='\0';
                 archivo = new DataFile(newPath);
-                BloqueMaestro *bm;
+                BloqueMaestro *bm = new BloqueMaestro();
                 bm->Load(archivo);
                 cout<<bm->blockSize<<bm->blockNumber<<bm->blockNumber<<bm->dbSize<<endl;
                 break;

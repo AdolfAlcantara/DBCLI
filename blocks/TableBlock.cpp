@@ -40,6 +40,10 @@ void TableBlock::listTables() {
     for(auto it = tables->begin();it!=tables->end();it++){
         Table *tb = *it;
         std::cout<<tb->tableName<<endl;
+        for(auto itf = tb->Fields->begin();itf!=tb->Fields->end();itf++){
+            Field *fl = *itf;
+            std::cout<<"-"<<fl->fieldName<<endl;
+        }
     }
 }
 
