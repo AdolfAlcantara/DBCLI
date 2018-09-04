@@ -1,0 +1,3 @@
+C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/cmake-build-debug/CMakeFiles/DCLI.dir
+C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/FuryCoder/Documents/TBD2/Proyecto2/DCLI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
